@@ -80,9 +80,9 @@ Steam store page : https://store.steampowered.com/app/1927040/Survirus/
 ## 7. 적 AI
 > Idle, 추격, 공격, 회귀 상태를 상황에 따라 반복
 > 
-<img src="https://user-images.githubusercontent.com/87380790/176413945-0d5c5f14-acc4-4e76-afde-e200f5625a7d.gif" width="70%">
-<img src="https://user-images.githubusercontent.com/87380790/176413953-a8f5b0b8-d8d9-4449-b7cf-b60af3bac344.gif" width="70%">
-<img src="https://user-images.githubusercontent.com/87380790/176413994-d4ed0a59-4ba1-4348-9767-c8ae611eb085.gif" width="70%">
+<img src="https://user-images.githubusercontent.com/87380790/176473318-ef6374d0-96e9-4649-ac59-1e989e9f915a.gif" width="70%">
+<img src="https://user-images.githubusercontent.com/87380790/176473329-f004e516-1fd1-4efc-90b2-932c9b4f42bc.gif" width="70%">
+<img src="https://user-images.githubusercontent.com/87380790/176473341-9dbbe58d-a002-4fa6-883a-b20f0af99bdf.gif" width="70%">
 
 - Coroutine 변수에 현재 상태를 지정해주어 상태 간 충돌 방지   
 - 각기 다른 공격 패턴의 3가지 적     
