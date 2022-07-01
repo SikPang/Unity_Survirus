@@ -41,6 +41,7 @@ Steam store page : https://store.steampowered.com/app/1927040/Survirus/
 - List를 foreach문으로 돌면서 하나씩 아이템 RectTransform을 Instantiate()   
 - 인덱스에 따라 좌표 설정, 마우스 리스너 추가, 이미지, 수량, 툴팁 세팅   
 - IDragHandler를 이용하여 Drag & Drop을 지원, 인벤토리와 가방 간의 아이템 이동 가능   
+- 아이템 정렬 버튼
 
 <br/>
 <br/>
