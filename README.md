@@ -146,7 +146,7 @@ Steam store page : https://store.steampowered.com/app/1927040/Survirus/
 - 바이러스 확산 범위가 급증하는 Wind Wave, 바이러스 비가 내리는 Rain Wave      
 - 아침마다 랜덤 시간과 랜덤 길이를 정하고, 해당 시각에 Wave 시작      
 - OnParticleCollision 으로 비, 바이러스와 충돌시 이벤트 발생   
-- RenderSettings.skybox의 AtmosphereThickness와 SkyTint 값을 조절하여 하늘 색 변경   
+- Color.Lerp()를 이용하여 RenderSettings.skybox의 AtmosphereThickness와 SkyTint 값을 조절하여 하늘 색 변경   
 
 
 <br/>
