@@ -85,7 +85,7 @@ Steam store page : https://store.steampowered.com/app/1927040/Survirus/
 <img src="https://user-images.githubusercontent.com/87380790/176473329-f004e516-1fd1-4efc-90b2-932c9b4f42bc.gif" width="70%">
 <img src="https://user-images.githubusercontent.com/87380790/176473341-9dbbe58d-a002-4fa6-883a-b20f0af99bdf.gif" width="70%">
 
-- Coroutine 변수에 현재 상태를 지정해주어 상태 간 충돌 방지   
+- Coroutine 객체에 현재 상태를 지정해주어 상태 간 충돌 방지   
 - 각기 다른 공격 패턴의 3가지 적     
 - 특정 체력 이하로 내려갈 시 슈퍼아머 공격   
 - 처치 시 약탈 가능   
