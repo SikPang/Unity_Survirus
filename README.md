@@ -12,7 +12,7 @@ Steam store page : https://store.steampowered.com/app/1927040/Survirus/
 ## 1. 시작 화면
 > 새 게임, 불러오기, 옵션, 크레딧 지원
 > 
-<img src="https://user-images.githubusercontent.com/87380790/176414053-aaaf6ba3-9c42-49f5-82d6-622bbe4cea4e.gif" width="80%">
+<img src="https://user-images.githubusercontent.com/87380790/176414053-aaaf6ba3-9c42-49f5-82d6-622bbe4cea4e.gif" width="70%">
 
 - Timeline을 활용한 크레딧<br/>
 - SceneManager.LoadSceneAsync()를 활용하여 첫 로딩 시 스토리 보여줌 <br/>
