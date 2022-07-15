@@ -11,8 +11,10 @@ Steam store page : https://store.steampowered.com/app/1927040/Survirus/
   
 ## 1. 시작 화면
 > 새 게임, 불러오기, 옵션, 크레딧 지원
-> 
-<img src="https://user-images.githubusercontent.com/87380790/176414053-aaaf6ba3-9c42-49f5-82d6-622bbe4cea4e.gif" width="70%">
+
+
+<img src="https://user-images.githubusercontent.com/87380790/176414053-aaaf6ba3-9c42-49f5-82d6-622bbe4cea4e.gif" width="80%">
+
 
 - Timeline을 활용한 크레딧<br/>
 - SceneManager.LoadSceneAsync()를 활용하여 첫 로딩 시 스토리 보여줌 <br/>
@@ -25,7 +27,7 @@ Steam store page : https://store.steampowered.com/app/1927040/Survirus/
 ## 2. 상호작용
 > 카메라에서 Raycast를 쏘아 상호작용 물체 식별
 > 
-<img src="https://user-images.githubusercontent.com/87380790/176413883-80c67438-98c8-42f5-8a47-3441e9b0cf4e.gif" width="70%">
+<img src="https://user-images.githubusercontent.com/87380790/176413883-80c67438-98c8-42f5-8a47-3441e9b0cf4e.gif" width="80%">
 
 - UnityEvent를 통해 물체에 따라 다른 이벤트가 발생 <br/>
 
@@ -36,7 +38,7 @@ Steam store page : https://store.steampowered.com/app/1927040/Survirus/
 ## 3. 인벤토리
 > 사각형 칸을 베이스로 한 인벤토리와 가방
 > 
-<img src="https://user-images.githubusercontent.com/87380790/176413923-d181ae42-f7f1-4c40-a0b8-b0d4025f9c24.gif" width="70%">
+<img src="https://user-images.githubusercontent.com/87380790/176413923-d181ae42-f7f1-4c40-a0b8-b0d4025f9c24.gif" width="80%">
 
 - List를 foreach문으로 돌면서 하나씩 아이템 RectTransform을 Instantiate()   
 - 인덱스에 따라 좌표 설정, 마우스 리스너 추가, 이미지, 수량, 툴팁 세팅   
@@ -49,7 +51,7 @@ Steam store page : https://store.steampowered.com/app/1927040/Survirus/
 
 ## 4. 장비 착용
 > 아이템 장착, 교체 가능, 아이템별로 다른 효과를 지님
-<img src="https://user-images.githubusercontent.com/87380790/176413932-6d113e92-ef75-46ad-b373-aba31583ab0c.gif" width="70%">
+<img src="https://user-images.githubusercontent.com/87380790/176413932-6d113e92-ef75-46ad-b373-aba31583ab0c.gif" width="80%">
 
 <br/>
 <br/>
@@ -58,7 +60,7 @@ Steam store page : https://store.steampowered.com/app/1927040/Survirus/
 ## 5. 아이템 사용
 > 체력 회복, 음식, 마실 것 등
 > 
-<img src="https://user-images.githubusercontent.com/87380790/176413960-6ae0a0a0-9275-455a-8b4b-d4ffac4444dd.gif" width="70%">
+<img src="https://user-images.githubusercontent.com/87380790/176413960-6ae0a0a0-9275-455a-8b4b-d4ffac4444dd.gif" width="80%">
 
 - Coroutine 으로 시간에 따라 체력, 배고픔, 목마름 등 변동   
 - 아이템을 사용하여 체력, 배고픔, 목마름 회복   
@@ -72,7 +74,7 @@ Steam store page : https://store.steampowered.com/app/1927040/Survirus/
 ## 6. 보관함
 > 각각의 독립적인 보관함, 아이템 랜덤 스폰
 > 
-<img src="https://user-images.githubusercontent.com/87380790/176413942-1c0c5b69-7ef5-401e-91c4-a9d33320c39e.gif" width="70%">
+<img src="https://user-images.githubusercontent.com/87380790/176413942-1c0c5b69-7ef5-401e-91c4-a9d33320c39e.gif" width="80%">
 
 <br/>
 <br/>
@@ -81,9 +83,9 @@ Steam store page : https://store.steampowered.com/app/1927040/Survirus/
 ## 7. 적 AI
 > Idle, 추격, 공격, 회귀 상태를 상황에 따라 반복
 > 
-<img src="https://user-images.githubusercontent.com/87380790/176473318-ef6374d0-96e9-4649-ac59-1e989e9f915a.gif" width="70%">
-<img src="https://user-images.githubusercontent.com/87380790/176473329-f004e516-1fd1-4efc-90b2-932c9b4f42bc.gif" width="70%">
-<img src="https://user-images.githubusercontent.com/87380790/176473341-9dbbe58d-a002-4fa6-883a-b20f0af99bdf.gif" width="70%">
+<img src="https://user-images.githubusercontent.com/87380790/176473318-ef6374d0-96e9-4649-ac59-1e989e9f915a.gif" width="80%">
+<img src="https://user-images.githubusercontent.com/87380790/176473329-f004e516-1fd1-4efc-90b2-932c9b4f42bc.gif" width="80%">
+<img src="https://user-images.githubusercontent.com/87380790/176473341-9dbbe58d-a002-4fa6-883a-b20f0af99bdf.gif" width="80%">
 
 - Coroutine 객체에 현재 상태를 지정해주어 상태 간 충돌 방지   
 - 각기 다른 공격 패턴의 3가지 적     
@@ -97,8 +99,8 @@ Steam store page : https://store.steampowered.com/app/1927040/Survirus/
 ## 8. NPC 상호작용
 > NPC와 대화, 거래, 퀘스트
 > 
-<img src="https://user-images.githubusercontent.com/87380790/176413977-a92bbcf7-3f76-4f9f-8b0c-a4190efe1564.gif" width="70%">
-<img src="https://user-images.githubusercontent.com/87380790/176413982-9d0e9360-300b-4bdc-8d7b-8fd6790c59b6.gif" width="70%">
+<img src="https://user-images.githubusercontent.com/87380790/176413977-a92bbcf7-3f76-4f9f-8b0c-a4190efe1564.gif" width="80%">
+<img src="https://user-images.githubusercontent.com/87380790/176413982-9d0e9360-300b-4bdc-8d7b-8fd6790c59b6.gif" width="80%">
 
 - NPC와 대화한 날짜나 전체 날짜를 기준으로 달라지는 대사   
 - 날마다 바뀌는 상인의 아이템들   
@@ -111,7 +113,7 @@ Steam store page : https://store.steampowered.com/app/1927040/Survirus/
 ## 9. 버프, 디버프
 > Coroutine을 활용한 5가지 디버프와 2가지 버프
 > 
-<img src="https://user-images.githubusercontent.com/87380790/176413988-ac4343d3-2297-40a3-b379-4bb568273f94.gif" width="70%">
+<img src="https://user-images.githubusercontent.com/87380790/176413988-ac4343d3-2297-40a3-b379-4bb568273f94.gif" width="80%">
 
 - 출혈 : 칼이나 총에 맞았을 경우 20% 확률로 발생, 초당 1의 체력 감소   
 - 감염 : 바이러스에 접촉 시 일정 확률에 따라 발생, 잠복기 있으며 점점 상태 악화, 8분 이후 사망   
@@ -128,7 +130,7 @@ Steam store page : https://store.steampowered.com/app/1927040/Survirus/
 ## 10. 실시간 해의 움직임
 > 게임 내에서 정해진 시간에 따라 해가 움직임 (20배속)
 > 
-<img src="https://user-images.githubusercontent.com/87380790/176414036-5c083b02-a9d4-47b5-ad5d-ec7245801289.gif" width="70%">
+<img src="https://user-images.githubusercontent.com/87380790/176414036-5c083b02-a9d4-47b5-ad5d-ec7245801289.gif" width="80%">
 
 - Coroutine으로 흘러가는 시간   
 - 흘러가는 시간에 맞춰 Quaternion.Euler() 를 활용해 해가 끊임없이 움직임   
@@ -141,8 +143,8 @@ Steam store page : https://store.steampowered.com/app/1927040/Survirus/
 ## 11. Wave
 > 하루마다 찾아오는 두가지 Wave
 > 
-<img src="https://user-images.githubusercontent.com/87380790/176414004-a24eb7bb-e3ff-4409-a6b5-baf5eb78f5e7.gif" width="70%">
-<img src="https://user-images.githubusercontent.com/87380790/176414023-61ea3087-770f-481c-91d9-d945778bf651.gif" width="70%">
+<img src="https://user-images.githubusercontent.com/87380790/176414004-a24eb7bb-e3ff-4409-a6b5-baf5eb78f5e7.gif" width="80%">
+<img src="https://user-images.githubusercontent.com/87380790/176414023-61ea3087-770f-481c-91d9-d945778bf651.gif" width="80%">
 
 - 바이러스 확산 범위가 급증하는 Wind Wave, 바이러스 비가 내리는 Rain Wave      
 - 아침마다 랜덤 시간과 랜덤 길이를 정하고, 해당 시각에 Wave 시작      
@@ -157,7 +159,7 @@ Steam store page : https://store.steampowered.com/app/1927040/Survirus/
 ## 12. 엔딩
 > 특정 조건 달성 시 엔딩
 > 
-<img src="https://user-images.githubusercontent.com/87380790/176414043-b6bc5fdb-25cc-4287-9d6c-0d32e6e03b40.gif" width="70%">
+<img src="https://user-images.githubusercontent.com/87380790/176414043-b6bc5fdb-25cc-4287-9d6c-0d32e6e03b40.gif" width="80%">
 
 - Timeline을 활용한 엔딩 씬과 크레딧   
 
